@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: "yekan";
+	/*src: url("font/Yekan.woff") format("woff");*/
+	src: url(../font/Yekan.woff) format("woff");
+}
+body{
+	height: 100%;
+	/*background-image: url('images/background.jpg');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	background-attachment: fixed;*/
+	
+	background: -webkit-linear-gradient(right,#0000b5,#000079,#00005b,#000033);
+	transition: all 0.4s ease;
+	
+	
+}
+
+.main{
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin: 200px auto;
+	
+}
+.lo{
+	display: block;
+	margin: auto auto;
+	background: #51F090;
+	padding: 10px;
+	box-shadow: rgb(38, 57, 77)  0px 20px 30px -10px;
+	border-radius: 5px;
+	background: -webkit-linear-gradient(right,#1de6d3,#18b3a4,#0f786e,#07423d);
+	transition: all 0.4s ease;
+	
+}
+input[type=text],input[type=password]{
+	text-decoration: none;
+	width: 150px;
+	height: 28px;
+	padding-top: 5px;
+	border-radius: 3px;
+	font-family:"yekan";
+	text-align: center;
+	margin: 0;
+}
+input[type=submit]{
+	
+	font-family: "yekan";
+	width: 150px;
+	height: 34px;
+	padding: 2px;
+	border: 1px solid #636161;
+	border-radius: 3px;
+	background: -webkit-linear-gradient(right,#003366,#004080,#0059b3 , #0073e6);
+	transition: all 0.4s ease;
+	color: white;
+	margin: 0;
+	cursor: pointer;
+}
+.peigham{
+	width: 100%;
+	display: block;
+	margin:0;
+	color: white;
+	
+	
+}
